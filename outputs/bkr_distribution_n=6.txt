@@ -1,0 +1,8 @@
+# BKR exact null distribution, n = 6
+# Total permutations = 720
+# Format: BKR_fraction  frequency
+-2 128
+-1 320
+0 64
+2 128
+4 80
