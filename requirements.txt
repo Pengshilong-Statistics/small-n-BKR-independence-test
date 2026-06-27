@@ -1,0 +1,6 @@
+# Core dependencies
+numpy>=1.20.0          # FFT-based convolution (Algorithm 2)
+tqdm>=4.60.0           # Progress bar for permutation enumeration (Algorithm 1)
+
+# All other imports (sys, math, itertools, fractions, multiprocessing, functools,
+# collections) are part of the Python standard library and require no installation.
