@@ -24,15 +24,10 @@ bkr-exact-inference/
 ├── LICENSE                      # MIT License
 ├── requirements.txt             # Python dependencies
 ├── .gitignore                   # Git ignore rules
-├── paper/
-│   └── paper.pdf                # The full paper
 ├── src/
 │   ├── __init__.py              # Package init
 │   ├── r_statistic.py           # Algorithm 1: Exact null distribution of R_n
 │   └── fft_convolution.py       # Algorithm 2: FFT-based convolution for Z_Rn
-├── examples/
-│   ├── demo_algorithm1.py       # Demo: Exact R_n distribution computation
-│   └── demo_algorithm2.py       # Demo: FFT quantile computation
 └── outputs/                     # Output directory for distribution files
 ```
 
@@ -81,7 +76,7 @@ pip install -r requirements.txt
 
 ```python
 # Run from command line
-python src/r_statistic.py 7
+python src/r_statistic.py 6
 ```
 
 This will compute the exact null distribution of *R<sub>7</sub>* (7! = 5,040 permutations) and save results to `outputs/bkr_distribution_n=7.txt`.
@@ -118,7 +113,6 @@ for p, q in quantiles.items():
 ## Citation
 
 If you use this code in your research, please cite our paper.
-
 
 
 ## License
