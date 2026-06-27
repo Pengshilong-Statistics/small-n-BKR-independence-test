@@ -60,7 +60,7 @@ Computes **quantiles of the sum of *N* i.i.d. discrete random variables** using 
 ### Requirements
 
 - Python 3.8 or higher
-- Dependencies: `numpy`, `tqdm`
+- Dependencies: `numpy` `tqdm`
 
 ### Setup
 
