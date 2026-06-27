@@ -84,14 +84,14 @@ This will compute the exact null distribution of *R<sub>7</sub>* (7! = 5,040 per
 **Expected output (example for n=6):**
 
 ```
-总排列数: 720
-使用 8 个 CPU 核心并行计算...
-计算 BKR: 100%|████████████| 720/720 [00:01<00:00, 523.14perm/s]
+Total permutations: 720
+Using 8 CPU cores for parallel computation......
+Computing BKR: 100%|████████████| 720/720 [00:01<00:00, 523.14perm/s]
 
-===== 分布摘要 =====
-不同 BKR 值的个数: 67
+===== Distribution Summary  =====
+BKR values (smallest to largest): 5
 
-完整分布已保存至: outputs/bkr_distribution_n=6.txt
+Full distribution saved to: outputs/bkr_distribution_n=6.txt
 ```
 
 ### Algorithm 2 — FFT Quantile Computation
