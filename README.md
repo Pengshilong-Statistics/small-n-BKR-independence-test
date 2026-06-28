@@ -3,9 +3,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
-> **Shilong Peng**<sup>1</sup>, **Xudong Huang**<sup>2</sup><br>
-> <sup>1</sup> School of Statistics and Data Science, Zhejiang Gongshang University, Zhejiang, China<br>
-> <sup>2</sup> School of Mathematics and Statistics, Anhui Normal University, Anhui, China
 
 This repository provides the official implementation of the algorithms described in the paper *"Small-Sample Independence Testing with Blum–Kiefer–Rosenblatt's R"*.
 
